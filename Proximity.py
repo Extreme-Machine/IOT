@@ -16,7 +16,7 @@ while True:
         GPIO.output(13, GPIO.HIGH)
         
     if i==0:
-        print("Object is not detected",i)
+        print("Object not detected",i)
         GPIO.output(16, GPIO.LOW)
         GPIO.output(13, GPIO.LOW)
         
