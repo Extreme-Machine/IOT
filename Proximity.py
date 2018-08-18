@@ -11,7 +11,7 @@ while True:
     i=GPIO.input(15)
     time.sleep(0.2)
     if i==1:
-        print("object is Detected",i) 
+        print("object detected",i) 
         GPIO.output(16, GPIO.HIGH)
         GPIO.output(13, GPIO.HIGH)
         
